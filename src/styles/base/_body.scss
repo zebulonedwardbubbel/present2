@@ -1,0 +1,19 @@
+// =============================================================================
+// #BODY
+// =============================================================================
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: $bg-color-body;
+    color: $color-text;
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: auto;
+
+    background-image: linear-gradient(180deg, #005073, #71c7ec);
+
+    // for the fade-in effect
+    opacity: 1;
+    transition: 0.7s opacity;
+}

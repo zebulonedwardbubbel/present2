@@ -1,0 +1,51 @@
+{
+    "name": "glp4wbpck",
+    "version": "1.0.0",
+    "description": "basic front-end workflow based on gulp 4 & webpack",
+    "devDependencies": {
+        "autoprefixer": "^7.1.5",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.0",
+        "browser-sync": "^2.18.13",
+        "cross-env": "^5.0.5",
+        "cssnano": "^3.10.0",
+        "del": "^3.0.0",
+        "eslint": "^4.9.0",
+        "eslint-config-mito": "^8.0.0",
+        "eslint-loader": "^1.9.0",
+        "gulp": "gulpjs/gulp#4.0",
+        "gulp-changed": "^3.1.0",
+        "gulp-imagemin": "^3.4.0",
+        "gulp-nunjucks-render": "^2.2.2",
+        "gulp-postcss": "^7.0.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.1",
+        "imagemin-giflossy": "^5.1.10",
+        "imagemin-mozjpeg": "^6.0.0",
+        "imagemin-pngquant": "^5.0.1",
+        "imagemin-zopfli": "^5.1.0",
+        "webpack": "^3.6.0",
+        "webpack-dev-middleware": "^1.12.0",
+        "webpack-hot-middleware": "^2.19.1"
+    },
+    "scripts": {
+        "dev": "gulp --require babel-register --gulpfile tasks",
+        "build": "cross-env NODE_ENV=production gulp build --require babel-register --gulpfile tasks"
+    },
+    "babel": {
+        "presets": [
+            "env"
+        ],
+        "babelrc": false
+    },
+    "eslintConfig": {
+        "extends": "mito",
+        "rules": {
+            "linebreak-style": "off"
+        }
+    },
+    "dependencies": {
+        "node-sass": "^4.9.4"
+    }
+}

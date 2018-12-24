@@ -1,0 +1,46 @@
+.c-hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__emoji {
+        display: inline-block;
+        font-size: 72px;
+    }
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 40px;
+            line-height: 1.1;
+            margin: 12px;
+            text-align: center;
+            text-shadow: 0 -2px #fff;
+
+            @include mq(tablet) {
+                font-size: 72px;
+                margin: 24px;
+            }
+        }
+
+        span {
+            font-size: 32px;
+
+            @include mq(tablet) {
+                font-size: 72px;
+            }
+        }
+    }
+
+    &__we {
+        font-size: 24px;
+        text-align: center;
+        align-self: flex-end;
+        text-shadow: 0 -2px #fff;
+    }
+}

@@ -1,0 +1,38 @@
+// =============================================================================
+// Reset
+// =============================================================================
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, main {
+    display: block;
+}
+
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, li, dl, address {
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol {
+    list-style: none;
+}
+:link, :visited {
+    text-decoration: none;
+}
+img, fieldset, a img, :link img, :visited img {
+    border: none;
+}
+label[for], button {
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+img {
+    max-width: 100%;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}

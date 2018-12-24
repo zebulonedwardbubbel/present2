@@ -1,0 +1,22 @@
+// =============================================================================
+// #STiCKY FOOTER
+// https://github.com/philipwalton/solved-by-flexbox/blob/master/assets/css/components/site.css
+// =============================================================================
+body,
+html {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    flex: none;
+}
+
+main {
+    flex: 1 0 auto;
+}

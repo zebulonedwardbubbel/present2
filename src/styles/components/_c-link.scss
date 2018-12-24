@@ -1,0 +1,22 @@
+.c-link {
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: underline;
+
+    @include mq(desktop) {
+        line-height: 1;
+        text-decoration: none;
+        border-bottom: 1px solid currentColor;
+        text-shadow:
+        1px 1px white,
+        1px -1px white,
+        -1px 1px white,
+        -1px -1px white;
+        transition: border-bottom-color .3s ease;
+
+        &:hover {
+            border-bottom: 1px solid transparent;
+        }
+    }
+
+}

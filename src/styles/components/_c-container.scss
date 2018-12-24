@@ -1,0 +1,15 @@
+// =============================================================================
+// container
+// =============================================================================
+.c-container {
+    $_this: &;
+    position: relative;
+    // padding-right: 30px;
+    // padding-left: 30px;
+
+    @include mq(desktop) {
+        max-width: $content-width;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
