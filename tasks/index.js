@@ -15,7 +15,7 @@ export const paths = {
     styles: {
         src: 'src/styles/**/*.scss',
         dev: 'src/styles/',
-        dist: './'
+        dist: './styles'
     },
     js: {
         src: 'src/**/*.js'
