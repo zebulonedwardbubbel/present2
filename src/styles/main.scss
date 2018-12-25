@@ -16,14 +16,17 @@
 @import 'base/sticky-footer';
 @import 'base/typography';
 
+// Vendors
+@import 'vendor/flickity';
+
 // Components
 @import 'components/c-button';
 @import 'components/c-link';
 @import 'components/c-container';
 @import 'components/c-hero';
 @import 'components/c-canvas';
+@import 'components/c-teaser';
+@import 'components/c-carousel';
+@import 'components/c-info';
 
 // Layouts
-
-// Vendors
-//@import 'vendors/...';

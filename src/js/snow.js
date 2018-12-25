@@ -2,7 +2,7 @@ function snow() {
     const c = document.getElementById('canvas');
     const $ = c.getContext('2d');
     let w = c.width = window.innerWidth;
-    let h = c.height = window.innerHeight;
+    let h = c.height = window.innerHeight * 5;
 
     function Flake() {
         this.draw = function() {

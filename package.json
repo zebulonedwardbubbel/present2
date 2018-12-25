@@ -46,6 +46,7 @@
         }
     },
     "dependencies": {
+        "flickity": "^2.1.2",
         "node-sass": "^4.9.4"
     }
 }
