@@ -10,23 +10,23 @@ export const paths = {
     templates: {
         src: 'src/templates/*.njk',
         dev: 'src/',
-        dist: 'dist/'
+        dist: './'
     },
     styles: {
         src: 'src/styles/**/*.scss',
         dev: 'src/styles/',
-        dist: 'dist/styles/'
+        dist: './'
     },
     js: {
         src: 'src/**/*.js'
     },
     img: {
         src: 'src/img/**/*.{gif,png,jpg}',
-        dist: 'dist/img/'
+        dist: './img'
     },
     fonts: {
         src: 'src/fonts/**/*.{woff,woff2}',
-        dist: 'dist/fonts'
+        dist: '/fonts'
     }
 };
 
