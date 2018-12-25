@@ -2,7 +2,7 @@ function snow() {
     const c = document.getElementById('canvas');
     const $ = c.getContext('2d');
     let w = c.width = window.innerWidth;
-    let h = c.height = window.innerHeight;
+    let h = c.height = window.innerHeight * 5;
 
     function Flake() {
         this.draw = function() {
@@ -22,7 +22,7 @@ function snow() {
         // eslint-disable-next-line no-unused-vars
         const snow = null;
         const arr = [];
-        const num = 600;
+        const num = 100;
         const tsc = 1;
         const sp = 1;
         const sc = 1.3;
