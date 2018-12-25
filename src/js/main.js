@@ -1,5 +1,5 @@
 import carousel from './carousel';
-import snow from './snow';
+// import snow from './snow';
 
 carousel();
-snow();
+// snow();
